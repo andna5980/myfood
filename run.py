@@ -100,8 +100,8 @@ def logout():
 
 @app.route("/add_recipe")
 def add_recipe():
-    foodType = mongo.db.foodType.find().sort("foodType_name", 1) 
-    return render_template("add_recipe.html", foodType=foodType) 
+    foodTypes = mongo.db.foodTypes.find().sort("foodType_name", 1) 
+    return render_template("add_recipe.html", foodTypes=foodTypes) 
 
 
 if __name__ == "__main__":
