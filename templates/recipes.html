@@ -4,10 +4,11 @@
    
     
     {% for receta in recetas %}
-    {{ receta.food_name }}<br>
-    {{ receta.food_type }}<br>
+    {{ receta.receta_name }}<br>
+    {{ receta.foodType }}<br>
     {{ receta.cuisine }}<br>
-    {{ receta.ingredients }}<br>
+    {{ receta.ingredients_list }}<br>
+    {{ cooking_instructions }}<br>
     {% endfor %}
 
     <ul class="collapsible">
@@ -15,11 +16,13 @@
         <li>
             <div class="collapsible-header white-text text-shadow brown">
               <i class="fas fa-caret-down"></i>
-              <strong>{{ receta.food_name }}</strong> : {{ receta.food_type }}
+              <strong>{{ receta.receta_name }}</strong> : {{ receta.foodType }}
             </div>
             <div class="collapsible-body"> 
                 <strong> {{ receta.cuisine }}</strong>
-                <p>{{ receta.ingredients }}</p>
+                <p>{{ receta.ingredients_list }}</p>
+                <p>{{ receta.cooking_instructions }}</p>
+
             </div>
         </li>
     {% endfor %}
