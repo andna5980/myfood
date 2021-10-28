@@ -9,7 +9,7 @@
             <div class="input-field col s12">
                 <i class="fas fa-utensils prefix brown-text text-darken-2"></i>
                 <select id="foodType_name" name="foodType_name" class="validate" required>
-                    <option value="" disabled selected>Choose Food Type</option>
+                    <option value="" disabled selected>Choose Type of Food</option>
                     {% for foodType in foodTypes %}
                         <option value="{{foodType.foodType_name}}">{{foodType.foodType_name}}</option>
                     {% endfor %}
