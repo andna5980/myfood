@@ -1,27 +1,20 @@
 {% extends "base.html" %}
 {% block content%}   
    
-   
-    
-    {% for receta in recetas %}
-    {{ receta.receta_name }}<br>
-    {{ receta.foodTypes }}<br>
-    {{ receta.cuisine }}<br>
-    {{ receta.ingredients_list }}<br>
-    {{ cooking_instructions }}<br>
-    {% endfor %}
+<h3 class="center-align brown-text text-darken-2">All Recipes</h3>   
 
     <ul class="collapsible">
         {% for receta in recetas %}
             <li>
                 <div class="collapsible-header white-text text-shadow brown">
                 <i class="fas fa-caret-down"></i>
-                <strong>{{ receta.receta_name }}</strong> : {{ receta.foodType }}
+                <strong>{{ receta.receta_name }}</strong> : {{ receta.foodType_name }}
                 </div>
                 <div class="collapsible-body"> 
                     <strong> {{ receta.cuisine }}</strong>
                     <p>{{ receta.ingredients_list }}</p>
                     <p>{{ receta.cooking_instructions }}</p>
+                    <p><em>by: {{ receta.created_by  }}</em></p>
 
                 </div>
             </li>
