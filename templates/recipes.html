@@ -13,19 +13,19 @@
 
     <ul class="collapsible">
         {% for receta in recetas %}
-        <li>
-            <div class="collapsible-header white-text text-shadow brown">
-              <i class="fas fa-caret-down"></i>
-              <strong>{{ receta.receta_name }}</strong> : {{ receta.foodType }}
-            </div>
-            <div class="collapsible-body"> 
-                <strong> {{ receta.cuisine }}</strong>
-                <p>{{ receta.ingredients_list }}</p>
-                <p>{{ receta.cooking_instructions }}</p>
+            <li>
+                <div class="collapsible-header white-text text-shadow brown">
+                <i class="fas fa-caret-down"></i>
+                <strong>{{ receta.receta_name }}</strong> : {{ receta.foodType }}
+                </div>
+                <div class="collapsible-body"> 
+                    <strong> {{ receta.cuisine }}</strong>
+                    <p>{{ receta.ingredients_list }}</p>
+                    <p>{{ receta.cooking_instructions }}</p>
 
-            </div>
-        </li>
-    {% endfor %}
+                </div>
+            </li>
+        {% endfor %}
       </ul>
 
 {% endblock %}
