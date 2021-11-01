@@ -7,8 +7,15 @@
         {% for receta in recetas %}
             <li>
                 <div class="collapsible-header white-text text-shadow brown">
-                <i class="fas fa-caret-down"></i>
-                <strong>{{ receta.receta_name }}</strong> : {{ receta.foodType_name }}
+                    <div class="col s3">
+                        <i class="fas fa-caret-down"></i>
+                        <a href="" class="btn-small orange lighten-1">Done</a>
+                        <a href="" class="btn-small orange lighten-1">Edit</a>
+                    </div>
+                    <div class="col-s9">
+                        <strong>{{ receta.receta_name }}</strong> : {{ receta.foodType_name }}
+                    </div>
+                
                 </div>
                 <div class="collapsible-body"> 
                     <strong> {{ receta.cuisine }}</strong>
