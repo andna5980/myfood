@@ -10,3 +10,40 @@
     margin: 5px;
     line-height: 2.5;
 }
+
+
+/*-----------------------Footer----------*/
+
+footer {
+    height: 80px;
+    width: 100%;
+    background-color: #a1887f;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks a {
+    color: white;
+    display: inline-block;
+    margin: 1px;
+    padding: 2%;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-networks a i:hover {
+    color: #6d4c41;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: white;   
+}
