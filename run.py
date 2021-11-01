@@ -146,6 +146,17 @@ def get_foodtypes():
     return render_template("foodtypes.html", foodtypes=foodtypes)
 
 
+@app.route("/add_foodtype", methods=["GET", "POST"])
+def add_foodtype():
+    if request.method == "POST":
+        foodtype = {
+            "foodType_name": request.form.get("foodType_name")
+        }
+        mongo.db.foodTypes.insert_one(foodtype)
+        flash("New Food Type added")
+        return redirect(url_for("get_foodtypes"))
+
+    return render_template("add_foodtype.html")
 
 
 if __name__ == "__main__":
