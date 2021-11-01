@@ -15,36 +15,36 @@
 /*-----------------------Footer----------*/
 
 footer {
-    height: 100px;
+    height: 80px;
     width: 100%;
-    background-color: #a1887f;
+    background-color: ;
     overflow: hidden;
-    margin-top: 10px;
-
+    border-style: solid;
+    border-color:  #a1887f;
+    border-radius: 30px ;
 }
 
 .social-networks {
     text-align: center;
+    color: #a1887f;
 }
 
+
 .social-networks a {
-    color: white;
+    color: #a1887f;
     display: inline-block;
     margin: 1px;
     padding: 2%;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+
 }
 
 .social-networks a i:hover {
-    color: #6d4c41;
+    color: #4e342e;
 }
 
 .social-networks i {
     font-size: 200%;
     margin: 1%;
     padding: 5%;
-    color: white;   
+    color:  #a1887f;   
 }
