@@ -110,9 +110,17 @@ def add_recipe():
         mongo.db.recetas.insert_one(receta)
         flash("Recipe Succesfully Added")
         return redirect(url_for("get_recetas"))
+
     foodTypes = mongo.db.foodTypes.find().sort("foodType_name", 1) 
     return render_template("add_recipe.html", foodTypes=foodTypes) 
 
+
+@app.route("/edit_recipe/<receta_id>", methods=["GET", "POST"])
+def edit_recipe(receta_id):
+    receta = mongo.db.recetas.find_one({"_id": ObjectId(receta_id)})
+
+    foodTypes = mongo.db.foodTypes.find().sort("foodType_name", 1) 
+    return render_template("edit_recipe.html", receta=receta, foodTypes=foodTypes) 
 
 if __name__ == "__main__":
     app.run(
