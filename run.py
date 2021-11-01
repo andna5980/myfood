@@ -140,6 +140,12 @@ def delete_recipe(receta_id):
     return redirect(url_for("get_recetas"))
 
 
+@app.route("/get_foodtypes")
+def get_foodtypes():
+    foodtypes = list(mongo.db.foodTypes.find().sort("foodType_name", 1))
+    return render_template("foodtypes.html", foodtypes=foodtypes)
+
+
 
 
 if __name__ == "__main__":
