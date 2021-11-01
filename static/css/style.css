@@ -15,11 +15,12 @@
 /*-----------------------Footer----------*/
 
 footer {
-    height: 80px;
+    height: 100px;
     width: 100%;
     background-color: #a1887f;
     overflow: hidden;
     margin-top: 10px;
+
 }
 
 .social-networks {
