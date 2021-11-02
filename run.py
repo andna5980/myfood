@@ -43,7 +43,7 @@ def register():
 
         #put the new user into 'session' cookie
         session["user"] = request.form.get("username").lower()
-        flash("Registration Succesful")
+        flash("Registration Succesfull")
         return redirect(url_for("profile", username=session["user"]))
 
     return render_template("register.html")
@@ -100,6 +100,7 @@ def logout():
 
 @app.route("/add_recipe", methods=["GET", "POST"]) 
 def add_recipe():
+    # add new recipe to db
     if request.method == "POST":
         receta = {
             "foodType_name": request.form.get("foodType_name"),
@@ -117,7 +118,7 @@ def add_recipe():
 
 @app.route("/edit_recipe/<receta_id>", methods=["GET", "POST"])
 def edit_recipe(receta_id):
-
+    # edit recipe on db
     if request.method == "POST":
         submit = {
             "foodType_name": request.form.get("foodType_name"),
