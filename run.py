@@ -174,6 +174,13 @@ def edit_foodtype(foodtype_id):
     return render_template("edit_foodtype.html", foodtype=foodtype)
 
 
+@app.route("/delete_foodtype/<foodtype_id>")
+def delete_foodtype(foodtype_id):
+    mongo.db.foodTypes.remove({"_id": ObjectId(foodtype_id)})
+    flash("Food Type Succesfully Deleted")
+    return redirect(url_for("get_foodtypes"))
+
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
