@@ -160,6 +160,20 @@ def add_foodtype():
     return render_template("add_foodtype.html")
 
 
+@app.route("/edit_foodtype/<foodtype_id>", methods=["GET", "POST"] )
+def edit_foodtype(foodtype_id):
+    if request.method == "POST":
+        submit = {
+            "foodType_name": request.form.get("foodType_name")
+        }
+        mongo.db.foodTypes.update({"_id": ObjectId(foodtype_id)}, submit)
+        flash("Food Type Succesfully Updated")
+        return redirect(url_for("get_foodtypes"))
+
+    foodtype = mongo.db.foodTypes.find_one({"_id": ObjectId(foodtype_id)})
+    return render_template("edit_foodtype.html", foodtype=foodtype)
+
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),

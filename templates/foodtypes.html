@@ -19,7 +19,7 @@
                         <span class="card-title">{{ foodtype.foodType_name }}</span>
                     </div>
                     <div class="card-action">
-                        <a href="#" class="btn-small text-shadow brown lighten-2">Edit</a>
+                        <a href="{{ url_for('edit_foodtype', foodtype_id=foodtype._id) }}" class="btn-small text-shadow brown lighten-2">Edit</a>
                         <a href="#" class="btn-small red text-shadow">Delete</a>
                     </div>
                 </div>
