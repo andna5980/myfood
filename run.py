@@ -164,7 +164,7 @@ def add_foodtype():
 def edit_foodtype(foodtype_id):
     if request.method == "POST":
         submit = {
-            "foodtype_name": request.form.get("foodtype_name")
+            "foodType_name": request.form.get("foodType_name") 
         }
         mongo.db.foodTypes.update({"_id": ObjectId(foodtype_id)}, submit)
         flash("Food Type Succesfully Updated")
