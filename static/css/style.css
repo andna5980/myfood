@@ -37,12 +37,12 @@ footer {
 }
 
 .social-networks a i:hover {
-    color: #4e342e;
+    color: #558b2f;
 }
 
 .social-networks i {
     font-size: 200%;
     margin: 1%;
     padding: 5%;
-    color:  #a1887f;   
+    color:  black;   
 }
