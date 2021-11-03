@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 {% block content %}
 
-    <h3 class="center-align brown-text text-darken-2">Manage Food Types</h3>   
+    <h3 class="center-align  text-darken-2">Manage Food Types</h3>   
 
     <div class="row">
         <div class="col s12 center-align">
-            <a href="{{ url_for('add_foodtype') }}" class="btn-large brown lighten-2 text-shadow">
+            <a href="{{ url_for('add_foodtype') }}" class="btn-large light-green darken-1">
                 Add Food Type <i class="fas fa-plus-square right"></i>
             </a>
         </div>
@@ -19,7 +19,7 @@
                         <span class="card-title">{{ foodtype.foodType_name }}</span>
                     </div>
                     <div class="card-action">
-                        <a href="{{ url_for('edit_foodtype', foodtype_id=foodtype._id) }}" class="btn-small text-shadow brown lighten-2">Edit</a>
+                        <a href="{{ url_for('edit_foodtype', foodtype_id=foodtype._id) }}" class="btn-small text-shadow light-green darken-1">Edit</a>
                         <a href="{{ url_for('delete_foodtype', foodtype_id=foodtype._id) }}" class="btn-small red text-shadow">Delete</a>
                     </div>
                 </div>
