@@ -16,22 +16,22 @@
 
     <header>
            <!-- top navbar--> 
-        <nav class="nav-extended text-shadow brown lighten-2">
+        <nav class="nav-extended text-shadow brown lighten-2" style="background-image: url('https://www.naturalproductsinsider.com/sites/naturalproductsinsider.com/files/Functional%20fats%20as%20functional%20ingredients.jpg') ">
             <div class="nav-wrapper">
-              <a href="{{ url_for('get_recetas') }}" class="brand-logo">Taste My Food</a>
-              <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="fas fa-hamburger"></i></a>
+              <a href="{{ url_for('get_recetas') }}" class="brand-logo" style="text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;">Taste My Food</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="fas fa-hamburger" style="text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;"></i></a>
               <ul class="right hide-on-med-and-down">
-                <li><a href="{{ url_for('get_recetas') }}">Home</a></li>
+                <li><a href="{{ url_for('get_recetas') }}" style="text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;">Home</a></li>
                 {% if session.user %}
-                    <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
-                    <li><a href="{{ url_for('add_recipe') }}">New Recipes</a></li>
+                    <li><a href="{{ url_for('profile', username=session['user']) }}" style="text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;">Profile</a></li>
+                    <li><a href="{{ url_for('add_recipe') }}" style="text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;">New Recipe</a></li>
                     {% if session.user|lower == "admin"|lower %}
                         <li><a href="{{ url_for('get_foodtypes') }}">Manage Food Types</a></li>
                     {% endif %}
-                    <li><a href="{{ url_for('logout') }}">Log Out</a></li>
+                    <li><a href="{{ url_for('logout') }}" style="text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;">Log Out</a></li>
                 {% else %}
-                    <li><a href="{{ url_for('login') }}">Log In</a></li>
-                    <li><a href="{{ url_for('register') }}">Register</a></li>
+                    <li><a href="{{ url_for('login') }}" style="text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;">Log In</a></li>
+                    <li><a href="{{ url_for('register') }}" style="text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;">Register</a></li>
                 {% endif %}
               </ul>
             </div>
