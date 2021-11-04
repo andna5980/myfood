@@ -14,14 +14,6 @@
 }
 
 
-/*-----------------------Modal----------*/
-.modal h4 {
-    color: black;
-
-}
-
-
-
 
 
 /*-----------------------Footer----------*/
@@ -56,5 +48,5 @@ footer {
     font-size: 200%;
     margin: 1%;
     padding: 5%;
-    color:  black;   
+    color:  #7cb342;   
 }
