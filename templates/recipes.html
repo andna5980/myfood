@@ -50,13 +50,27 @@
                     <div class="col s3">
                         <i class="fas fa-caret-down"></i>
                         {% if session.user|lower == receta.created_by|lower %}
-                            <a href="{{ url_for('delete_recipe', receta_id=receta._id)}}" class="btn-small red text-shadow">Delete</a>
+                            <a href="#delrecipe" class="btn-small red text-shadow modal-trigger">Delete</a>
+                             
+                                <div class="modal" id="delrecipe">
+                                    <div class="modal-content">
+                                        <h4> Delete Recipe?</h4>
+                                    </div>
+                                    <div class="modal-footer">     
+                                        <a href="{{ url_for('delete_recipe', receta_id=receta._id)}}" class="modal-close btn red">Yes</a>
+                                    </div>
+                                </div>
+                            
                             <a href="{{ url_for('edit_recipe', receta_id=receta._id)}}" class="btn-small light-green darken-1">Edit</a>
+                            
+                            
                         {% endif %}
+
                     </div>
-                    <div class="col-s9">
-                        <strong>{{ receta.receta_name }}</strong> : {{ receta.foodType_name }}
-                    </div>
+
+                        <div class="col-s9">
+                            <strong>{{ receta.receta_name }}</strong> : {{ receta.foodType_name }}
+                        </div>
                    
                 
                 </div>
