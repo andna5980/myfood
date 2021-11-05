@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 
-    <h3 class="center-align  text-darken-2">Manage Food Types</h3>   
+    <h3 class="center-align brown-text text-darken-2">Manage Food Types</h3>   
 
     <div class="row">
         <div class="col s12 center-align">
@@ -14,8 +14,8 @@
     <div class="row">
         {% for foodtype in foodtypes %}
             <div class="col s6 m3">
-                <div class="card brown lighten-2 text-shadow center-align">
-                    <div class="card-content white-text">
+                <div class="card light-green lighten-4  text-shadow center-align">
+                    <div class="card-content brown-text text-darken-2">
                         <span class="card-title">{{ foodtype.foodType_name }}</span>
                     </div>
                     <div class="card-action">

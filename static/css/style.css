@@ -13,6 +13,10 @@
     line-height: 2.5;
 }
 
+.collapsible-header {
+    border-bottom: 1px solid black;
+}
+
 
 
 
