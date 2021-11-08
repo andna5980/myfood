@@ -29,3 +29,28 @@ Free RecipeBook where users can save and share recipes. It has been designed so 
     7. As a frequent user I want to be able to see new recipes from different users.
     
     8. As a frequent user I would like to be able to delete or edit any of my recipes if I want.  
+    
+    
+## Structure
+
+The website will contain 3 pages for users that are not members.
+
+- Home Page will explain the puropose and the page and also the list of recipes created by the users.
+
+- A log in Page for registered users.
+
+- A Register Page for users to registered.
+
+The website will contain 4 pages for users that are registered and are logged.
+
+- Home Page will explain the puropose and the page and also the list of recipes created by the users.
+
+- A Profile Page that will confirm the user name of the current user.
+
+- A New Recipe Page will allow users to create and save recipes for later access.
+
+- A log Out Page will let the users logout if they want.
+
+
+
+
