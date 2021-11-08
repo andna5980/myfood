@@ -10,7 +10,7 @@ Free RecipeBook where users can save and share recipes. It has been designed so 
 
 ## User Experience (UX)
 
--   ### User stories
+### User stories
 
     1. As a first-time visitor, I want to quickly understand the main purpose of the website and how I can benefit from the service provided.
 
