@@ -57,8 +57,26 @@ The website will contain 4 pages for users that are registered and are logged.
 ### Databaase Schema:
 
 This project used a non-rational database by using MongoDB. 
-One main database ()
 
+One main database (RecipesBook)
+
+
+3 Collections
+    UserId: this collection will store the documents of the accounts created with the keys. username and password 
+    foodTypes: this collection contains the foodtypes created by the Admin. 
+    recetas: Will contain 4 documents. 
+        1) foodType_name(string) will contain the foodtype of the recipe.  
+        2) receta_name(string) will contain the name of the recipes.
+        3) cooking_instructions(string) will contain, ingredients and cooking instructions.
+        4) created_by(string) will contain the username that created the recipe.
+
+## Data Model
+
+Website User's journey
+<h2 align="center"><img src=""></h2>
+
+
+         
 
 
 
