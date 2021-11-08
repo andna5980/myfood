@@ -52,5 +52,18 @@ The website will contain 4 pages for users that are registered and are logged.
 - A log Out Page will let the users logout if they want.
 
 
+## Database
+
+### Databaase Schema:
+
+This project used a non-rational database by using MongoDB. 
+One main database ()
+
+
+
+
+
+
+
 
 
