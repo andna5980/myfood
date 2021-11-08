@@ -54,7 +54,7 @@ The website will contain 4 pages for users that are registered and are logged.
 
 ## Database
 
-### Databaase Schema:
+### Database Schema:
 
 This project used a non-rational database by using MongoDB. 
 
@@ -75,6 +75,11 @@ One main database (RecipesBook)
 Website User's journey
 <h2 align="center"><img src="https://github.com/andna5980/myfood/blob/main/assets/wireframes/data-model.png"></h2>
 
+## Features
+
+### Navbar
+
+Navigation bar will include a background image food related, home page which include the purpose of the website and will display a list of the recipes created by the users. Log in page will   
 
          
 
