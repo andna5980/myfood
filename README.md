@@ -73,7 +73,7 @@ One main database (RecipesBook)
 ## Data Model
 
 Website User's journey
-<h2 align="center"><img src="https://github.com/andna5980/myfood/blob/main/assets/wireframes/Data-model.pdf"></h2>
+<h2 align="center"><img src="https://github.com/andna5980/myfood/blob/main/assets/wireframes/data-model.png"></h2>
 
 
          
