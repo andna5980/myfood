@@ -23,11 +23,16 @@
     justify-content: center;
 }
 
+.container {
+    margin: 20px auto;
+    max-width: 1280px;
+    width: 90%;
+}
 
 /*-----------------------Footer----------*/
 
 footer {
-    height: 80px;
+    height: auto;
     width: 100%;
     overflow: hidden;
 
