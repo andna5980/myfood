@@ -213,8 +213,22 @@ The file can be updated anytime a new instance is installed by typing in the ter
 
 Another file that also need to added is a Procfile. Inside this file needs to be included the following line
     web: python run.py
-    
- 
+
+
+## Credits
+
+### Code
+- Materialize framework used for frontend development
+
+### Media
+
+- [Fontawsome](https://fontawesome.com/)Vector Icons used in the whole project.
+- [Undraw](https://undraw.co/search) Illustrations used in landing page and profile page
+- [Background Image - Navbar](https://www.naturalproductsinsider.com/sites/naturalproductsinsider.com/files/Functional%20fats%20as%20functional%20ingredients.jpg)
+    This image in part of the background used in the navbar
+
+
+
 
 
 
