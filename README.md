@@ -123,9 +123,28 @@ Functionality in the navbar that will allow the logged users to logout/exit the 
 
 - Typography throughout the whole page is BlinkMacSystemFont which is a Apple font. Is a simplistic font, easy to read in various devices.
 
-### Technologies
+## Technologies
+### Languages and Frameworks
+- HTML5 - Mark-ip language mainly used for the web structure
+- CSS3 - Used to provide style the web
+- JavaScript - Language use to create web functionalities 
+- Python - Backend language to develop everything not seen by the user
+- Flask - Framework
+- jQuery - JavaScript library needed for Materialize framework to work  
+- Github - Online service to host repositories.
 
-# Logout
+### FrontEnd
+- Materialize - Framwork use for the creation of different areas of the web
+- FontAwsome - Vector icons used in the website
+- Balsamic - Used to created wireframes
+
+### BackEnd
+- MongoDB - Database used to store user's details and all recipes added by them
+- Heroku - Platform used to deploy and Host the website
+
+
+
+
 
 
 
