@@ -218,7 +218,7 @@ Another file that also need to added is a Procfile. Inside this file needs to be
 ## Credits
 
 ### Code and Content 
-- Materialize framework used for frontend development
+- [Materialize framework](https://materializecss.com/)  Frontend development
 - [Stackoverflow](https://stackoverflow.com/) General queries on code.
 - [Colorspace](https://mycolor.space/) Color Palette website that generates a selecion of matching colors.  
 - [W3schools](https://www.w3schools.com/) For general database on software development.
