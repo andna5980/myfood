@@ -12,14 +12,15 @@ Free RecipeBook where users can save and share recipes. It has been designed so 
 
 ### User stories
 
-    1. As a first-time visitor, I want to quickly understand the main purpose of the website and how I can benefit from the service provided.
+    1. As a first-time visitor, I want to quickly understand the main purpose of the website and how I can benefit 
+        from the service provided.
 
     2. As a first-time visitor I want to navigate the page in a ease and clear way.
     
     3. As a firt-time visitor I want to get access to content without the need of register os join the service. 
 
-    4. As a first-time visitor I want to find on the site all the social media links, so I can check if the site is trustworthy. 
-       Also, I would like see the real testimonials that help me understand the benefits of the product.
+    4. As a first-time visitor I want to find on the site all the social media links, so I can check if the site is 
+        trustworthy. Also, I would like see the real testimonials that help me understand the benefits of the product.
 
     5. As a returning visitor, I would like to be able to filter recipes so i can see only what i am interested in.
     
