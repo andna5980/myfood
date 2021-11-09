@@ -165,7 +165,15 @@ The results for those tests were positive.
 
 - [PEP8 Online](http://pep8online.com) Python code validator. Showed no main issues with the code.
 
+## Fixed Bugs
 
+- Search, edit and delete buttons overlap under mobile views. I had to modify the size of the buttons and also insert border-radius in order to soft the corners.
+  Buttons fit perfectly.
+
+- Footer social media icons and copyright information did not hsowed completely under profile page. In Order to solve this issue I have to increase the height of     the footer itself from 80px to auto. By doing this the footer section used any space needed. 
+
+- Navbar headings were to white and therefore not very clear to read with the background image. So I included an style line for every ul so it will create a shadow   and a stronger border in the text. This helped to read clear. See the code line that helped fixing the issue.
+  style="text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
 
 
 
