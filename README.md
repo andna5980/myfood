@@ -107,7 +107,15 @@ Functionality in the navbar that will allow the logged users to logout/exit the 
 
 ## Future Features Improvements
 
-- 
+- User options to upload images for the recipes saved
+
+- User options to provide and save more personal details.
+
+- Options for users to interact with other users.
+
+- Options for users to contribute/comment other recipes
+
+
 
 
 
