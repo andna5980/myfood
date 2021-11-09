@@ -116,6 +116,19 @@ Functionality in the navbar that will allow the logged users to logout/exit the 
 - Options for users to contribute/comment other recipes
 
 
+## Color Scheme and Typography
+
+- The color scheme use is called organic color Palette, basically a mix of greens which represent a plant-base fare. 
+  This color palette matches the food topic, this colours are mainly used in restaurants and food oriented pages.
+
+- Typography throughout the whole page is BlinkMacSystemFont which is a Apple font. Is a simplistic font, easy to read in various devices.
+
+### Technologies
+
+# Logout
+
+
+
 
 
 
