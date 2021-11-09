@@ -125,6 +125,7 @@ Functionality in the navbar that will allow the logged users to logout/exit the 
 
 ## Technologies
 ### Languages and Frameworks
+
 - HTML5 - Mark-ip language mainly used for the web structure
 - CSS3 - Used to provide style the web
 - JavaScript - Language use to create web functionalities 
@@ -134,13 +135,34 @@ Functionality in the navbar that will allow the logged users to logout/exit the 
 - Github - Online service to host repositories.
 
 ### FrontEnd
+
 - Materialize - Framwork use for the creation of different areas of the web
 - FontAwsome - Vector icons used in the website
 - Balsamic - Used to created wireframes
 
 ### BackEnd
+
 - MongoDB - Database used to store user's details and all recipes added by them
 - Heroku - Platform used to deploy and Host the website
+
+## Testing
+
+### Screen Viewport
+
+The website has been tested in different view ports using Google Inspect tools. The website and it functions is clearly displany without any problem in varios 
+screen sizes. Starting from 400px to 1620px. 
+
+### Operation System & Browsers
+
+The website has been tested in different OS, that includes iOS, Windows but also in the 3 main browsers Chrome, Safari and firefox. 
+The results for those tests were positive.
+
+## Code Validation
+
+
+
+
+
 
 
 
