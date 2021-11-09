@@ -77,11 +77,40 @@ Website User's journey
 
 ## Features
 
-### Navbar
+### Navbar:
 
 Navigation bar will include a background image food related, home page which include the purpose of the website and will display a list of the recipes created by the users. Log in page will   
 
-         
+### Footer:
+
+It contains all the social media so the user can visit all related channels
+
+### Log in:
+
+Page for already registered users, they can access by providing username and password. Once this authentication procces is validated users can create or modify their own recipes.
+
+### Register:
+
+Page where users can create an account, they only have to provide a username(not already exist) and a password.
+
+### Profile:
+
+Page that confirm the user is under their account.
+
+### New Recipe:
+
+Page where users that are logged can create, save and edit their recipes.
+
+### Logout:
+
+Functionality in the navbar that will allow the logged users to logout/exit the web 
+
+## Future Features Improvements
+
+- 
+
+
+
 
 
 
