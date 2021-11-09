@@ -177,6 +177,44 @@ The results for those tests were positive.
 - Navbar headings were to white and therefore not very clear to read with the background image. So I included an style line for every ul so it will create a shadow   and a stronger border in the text. This helped to read clear. 
   See below the code line that fixed the issue.
   style="text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
+  
+## Deployment
+
+### Config
+It is important to config the python file, which in my project is run.py. Part of the configuration is to import local enviroments saved on env.py
+
+After all the "imports os" are done should follow ...
+
+if os.path.exists("env.py"):
+    import env
+
+app = Flask(__name__)
+
+app.config["MONGO_DBNAME"] = os.environ.get("MONGO_DBNAME")
+app.config["MONGO_URI"] = os.environ.get("MONGO_URI")
+app.secret_key = os.environ.get("SECRET_KEY")
+
+mongo = PyMongo(app)
+
+
+But also .....
+
+if __name__ == "__main__":
+    app.run(
+        host=os.environ.get("IP", "0.0.0.0"),
+        port=int(os.environ.get("PORT", "5000")),
+        debug=True)
+
+See above how debug=True; this always need to be set True during the development stages, but then change to False once the project is finish.
+
+Requirements.txt also need to be included as there the list of all instances needed in order to run the project. In order to create the requirements file, it can be done typing in the terminal "pip3 install -r requirements.txt"
+The file can be updated anytime a new instance is installed by typing in the terminal "pip3 freeze --local > requirements.txt"
+
+
+Another file that also need to added is a Procfile. Inside this file needs to be included the following line
+    web: python run.py
+    
+ 
 
 
 
