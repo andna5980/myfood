@@ -159,6 +159,11 @@ The results for those tests were positive.
 
 ## Code Validation
 
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) Showed no errors or faults.
+
+- [JS validator](https://jshint.com) JavaScript validator detected no erros.
+
+- [PEP8 Online](http://pep8online.com) Python code validator. Showed no main issues with the code.
 
 
 
