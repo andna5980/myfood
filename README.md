@@ -18,17 +18,18 @@ Free RecipeBook where users can save and share recipes. It has been designed so 
     
     3. As a firt-time visitor I want to get access to content without the need of register os join the service. 
 
-    4. As a first-time visitor I want to find on the site all the social media links, so I can check if the site is trustworthy. Also, I would like see the real            testimonials that help me understand the benefits of the product.
+    4. As a first-time visitor I want to find on the site all the social media links, so I can check if the site is trustworthy. 
+       Also, I would like see the real testimonials that help me understand the benefits of the product.
 
     5. As a returning visitor, I would like to be able to filter recipes so i can see only what i am interested in.
     
-    5. As a retuning visitor I would like to see new content that can inspire me to create my own recipes 
+    6. As a retuning visitor I would like to see new content that can inspire me to create my own recipes 
     
-    6. As a returning visitor, I would like to be able to create and save my own recipes 
+    7. As a returning visitor, I would like to be able to create and save my own recipes 
     
-    7. As a frequent user I want to be able to see new recipes from different users.
+    8. As a frequent user I want to be able to see new recipes from different users.
     
-    8. As a frequent user I would like to be able to delete or edit any of my recipes if I want.  
+    9. As a frequent user I would like to be able to delete or edit any of my recipes if I want.  
     
     
 ## Structure
@@ -172,7 +173,8 @@ The results for those tests were positive.
 
 - Footer social media icons and copyright information did not hsowed completely under profile page. In Order to solve this issue I have to increase the height of     the footer itself from 80px to auto. By doing this the footer section used any space needed. 
 
-- Navbar headings were to white and therefore not very clear to read with the background image. So I included an style line for every ul so it will create a shadow   and a stronger border in the text. This helped to read clear. See the code line that helped fixing the issue.
+- Navbar headings were to white and therefore not very clear to read with the background image. So I included an style line for every ul so it will create a shadow   and a stronger border in the text. This helped to read clear. 
+  See below the code line that fixed the issue.
   style="text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
 
 
