@@ -167,7 +167,7 @@ The results for those tests were positive.
 
 - [PEP8 Online](http://pep8online.com) Python code validator. Showed no main issues with the code.
 
-## Fixed Bugs
+## Solved Bugs
 
 - Search, edit and delete buttons overlap under mobile views. I had to modify the size of the buttons and also insert border-radius in order to soft the corners.
   Buttons fit perfectly.
@@ -217,8 +217,11 @@ Another file that also need to added is a Procfile. Inside this file needs to be
 
 ## Credits
 
-### Code
+### Code and Content 
 - Materialize framework used for frontend development
+- [Stackoverflow](https://stackoverflow.com/) General queries on code.
+- [Colorspace](https://mycolor.space/) Color Palette website that generates a selecion of matching colors.  
+- [W3schools](https://www.w3schools.com/) For general database on software development.
 
 ### Media
 
@@ -226,6 +229,20 @@ Another file that also need to added is a Procfile. Inside this file needs to be
 - [Undraw](https://undraw.co/search) Illustrations used in landing page and profile page
 - [Background Image - Navbar](https://www.naturalproductsinsider.com/sites/naturalproductsinsider.com/files/Functional%20fats%20as%20functional%20ingredients.jpg)
     This image in part of the background used in the navbar
+
+### Acknowledgements
+
+- Code Institute Community, Student care and [Slack](https://slack.com/intl/en-gb/) group. 
+
+- The private WhatsApp group created by Code institute Students for all the support and support during the hard moments you keep the motivation levels up.
+
+- Code Institute Task Manager mini Project. The project you provided and the explanation really help me to used that project as an example of what could be done.
+
+- My Wife for her support and companion during my long study nights.
+
+- Juan Antonio Santana Medina for his help, support. 
+
+
 
 
 
