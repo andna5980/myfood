@@ -158,7 +158,8 @@ screen sizes. Starting from 400px to 1620px.
 
 The website has been tested in different OS, that includes iOS, Windows but also in the 3 main browsers Chrome, Safari and firefox. 
 The results for those tests were positive.
-Lighthouse Performance test resuls
+
+See also Lighthouse Performance test resuls
 <h2 align="center"><img src="https://github.com/andna5980/myfood/blob/main/assets/images/Lighthouse%20performance%20test.png"></h2>
 
 
