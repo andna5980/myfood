@@ -214,6 +214,36 @@ The file can be updated anytime a new instance is installed by typing in the ter
 Another file that also need to added is a Procfile. Inside this file needs to be included the following line
     web: python run.py
 
+### Local Environment
+
+Create a new file named env.py by typing in the terminal 'touch env.py'.  This will create a file where all the configurations should be listed. 
+See below my configuration without the actual real information.
+
+import os
+
+os.environ.setdefault("IP", "0.0.0.0")
+os.environ.setdefault("PORT", "5000")
+os.environ.setdefault("SECRET_KEY", "PASSWORD")
+os.environ.setdefault("MONGO_URI", "mongodb+srv://<user>:<password>@<projectname>.kfnli.mongodb.net/<database>retryWrites=true&w=majority")
+os.environ.setdefault("MONGO_DBNAME", "<database name>")
+
+ ### Heroku Deployment
+    
+Requirements needed
+- MongoDB Account
+- Heroku Account
+   
+Deployment Process
+- Create Heroku Account
+- Once in the Heroku Acc, Choose to create a new App
+- Select Europe Region, as I am based in Europe
+- Select to deploy using Github method
+- Choose the repository (repository name) you want to deploy 
+- Go to settings and select 'Config vars'
+- 'config vars' details should be the same that appears in env.py file
+- Before deployment, double check that 'requirements.txt' and 'Procfile' files are in place, otherwise deployment will incur in errors
+- Go to Deploy tab / manual deployment, choose your branch and click in manual deployment, once deployment is succesfull you will be able to see the                 application
+    
 
 ## Credits
 
@@ -241,28 +271,5 @@ Another file that also need to added is a Procfile. Inside this file needs to be
 - My Wife for her support and companion during my long study nights.
 
 - Juan Antonio Santana Medina for his help, support. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
